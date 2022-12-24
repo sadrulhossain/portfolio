@@ -1594,7 +1594,7 @@ li .fa {
 }
 
 .mh-home .hero-img img {
-  margin: 0 auto;
+  margin: 15px auto;
   float: none;
   text-align: center;
   border: 20px solid rgba(0, 0, 0, 0.17);
@@ -3879,5 +3879,9 @@ BLOG Pagination
 .mh-about-tag-2 ul {
   margin-bottom: 30px;
   margin-top: 20px;
+}
+
+.img-fluid.img-profile {
+  max-width: 150% !important;
 }
 /*# sourceMappingURL=styles.css.map */
