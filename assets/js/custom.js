@@ -326,40 +326,40 @@ $(function (){
     // professional skill
     for(let x in professional_skill){
         let item = professional_skill[x]
+
         let block = '<li>\n' +
-            '                    <div class="mh-progress mh-progress-circle active" data-progress="'+item.proficiency+'" style="position: relative;">' +
-            '                       <svg viewBox="0 0 100 100">' +
-            '                           <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#eee" stroke-width="5" fill-opacity="0"></path>' +
-            '                           <path d="M 50,50 m 0,-47.5 a 47.5,47.5 0 1 1 0,95 a 47.5,47.5 0 1 1 0,-95" stroke="#555" stroke-width="5" fill-opacity="0" style="stroke-dasharray: 298.493, 298.493; stroke-dashoffset: 44.774;"></path>' +
-            '                       </svg>' +
-            '                       <p class="progressbar-text" style="position: absolute; top: 50%; left: 50%; padding: 0; margin: 0; transform: translate(-50%, -50%); color: rgb(85, 85, 85);">' +
-            '                           '+item.proficiency+'%' +
-            '                       </p>' +
-            '                     </div>\n' +
+            '                    <div class="circular-progress" data-proficiency="'+item.proficiency+'">\n' +
+            '                      <strong>'+item.proficiency+'%</strong>\n' +
+            '                    </div>\n' +
             '                    <div class="pr-skill-name">'+item.skill+'</div>\n' +
             '                  </li>'
         $('.mh-professional-skills .mh-professional-progress').append(block)
-    }
-    // featured projects
-    const featured_projects = [
-        {
-            img: 'p-1.png',
-            category: '',
-            type: '',
-            title: '',
-            description: '',
-            technologies: [],
-        },
-        {
-            img: 'p-2.png',
-            category: '',
-            type: '',
-            title: '',
-            description: '',
-            technologies: [],
-        },
-    ]
 
+    }
+
+    let c4 = $('.circular-progress')
+
+    c4.circleProgress({
+        startAngle: -Math.PI / 2,
+        value: 0,
+        lineCap: 'round',
+        thickness: 5,
+        fill: {
+            // gradient: ['#2e9182', '#0cbba0', '#2e9182', '#0cbba0', '#2e9182', '#0cbba0', '#2e9182', '#0cbba0'],
+            // gradientAngle: Math.PI/3*2,
+            color: '#0bceaf',
+            // image: 'linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent)',
+        },
+        emptyFill: 'rgba(199, 198, 198, 0.6)',
+    })
+
+    c4.each(function() {
+        let el = $(this)
+        // Let's emulate dynamic value update
+        setTimeout(() => {
+            el.circleProgress('value', el.attr('data-proficiency')/100)
+        }, 1500)
+    })
 
 
     /** end :: custom listing */
