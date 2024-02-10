@@ -1880,6 +1880,8 @@ li .fa {
       EDUCATION
     ==============
 */
+
+
 .mh-education {
   padding-right: 30px;
 }
@@ -3885,3 +3887,20 @@ BLOG Pagination
   max-width: 150% !important;
 }
 /*# sourceMappingURL=styles.css.map */
+
+.mh-work, .mh-experince {
+   padding: 50px 0 !important;
+}
+.mh-experince h3,
+.mh-work h3{
+  margin-bottom: 30px !important;
+}
+.mh-experince .mh-education-deatils .mh-education-item,
+.mh-work .mh-experience-deatils .mh-work-item{
+  margin-bottom: 20px !important;
+}
+.mh-experince .mh-education-deatils .mh-education-item h4 a,
+.mh-work .mh-experience-deatils .mh-work-item h4 a {
+  font-style: italic !important;
+  font-size: 16px !important;
+}
