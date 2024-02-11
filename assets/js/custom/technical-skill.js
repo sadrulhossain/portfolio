@@ -50,7 +50,7 @@ $(function() {
         },
         {
             skill: 'Redis',
-            proficiency: 60,
+            proficiency: 67,
         },
     ]
     loadTechnicalSkill(technical_skill)
