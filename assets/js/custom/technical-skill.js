@@ -22,7 +22,7 @@ $(function() {
         },
         {
             skill: 'Node.js',
-            proficiency: 50,
+            proficiency: 65,
         },
         {
             skill: 'Vue',
