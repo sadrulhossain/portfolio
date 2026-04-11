@@ -18,7 +18,7 @@ $(function() {
         },
         {
             name: 'LinkedIn',
-            href: 'https://www.linkedin.com/in/s-sadrul-hossain-71624aa6/',
+            href: 'https://www.linkedin.com/in/s-sadrul-hossain/',
             icon: 'linkedin',
         },
     ];
