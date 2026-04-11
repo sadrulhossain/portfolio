@@ -1686,7 +1686,7 @@ li .fa {
 }
 
 .mh-professional-skills {
-  padding-left: 20%;
+  /*padding-left: 20%;*/
 }
 
 .mh-professional-skills h3 {
@@ -1699,10 +1699,9 @@ li .fa {
 
 .mh-professional-progress li {
   display: inline-block;
-  margin: 0 auto;
   float: none;
-  width: 48%;
-  margin-bottom: 30px;
+  width: 24%;
+  margin: 0 auto 30px;
   text-align: center;
 }
 
