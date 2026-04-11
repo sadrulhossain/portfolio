@@ -41,6 +41,16 @@ $(function() {
             ]
         },
         {
+            category: 'AI Expertise',
+            skills: [
+                { skill: 'Prompt Engineering', proficiency: 95 },
+                { skill: 'Context Engineering', proficiency: 90 },
+                { skill: 'Generative AI', proficiency: 10 },
+                { skill: 'RAG', proficiency: 0 },
+                { skill: 'MCP', proficiency: 0 },
+            ]
+        },
+        {
             category: 'Cloud & DevOps',
             skills: [
                 { skill: 'Docker', proficiency: 60 },
@@ -50,18 +60,29 @@ $(function() {
             ]
         },
         {
-            category: 'Tools & Practices',
+            category: 'PM & Collaboration',
             skills: [
                 { skill: 'Git', proficiency: 80 },
-                { skill: 'REST APIs', proficiency: 90 },
-                { skill: 'Microservices', proficiency: 80 },
                 { skill: 'Agile/Scrum', proficiency: 85 },
                 { skill: 'JIRA', proficiency: 90 },
+            ]
+        },
+        {
+            category: 'Design & Data Visualization',
+            skills: [
                 { skill: 'Kibana', proficiency: 80 },
                 { skill: 'Postman', proficiency: 90 },
                 { skill: 'Swagger', proficiency: 70 },
                 { skill: 'Figma', proficiency: 90 },
                 { skill: 'GraphQL', proficiency: 60 },
+            ]
+        },
+        {
+            category: 'Tools & Practices',
+            skills: [
+                { skill: 'REST APIs', proficiency: 90 },
+                { skill: 'Microservices', proficiency: 80 },
+                { skill: 'JWT', proficiency: 85 },
             ]
         },
     ]
