@@ -2,38 +2,56 @@ $(function() {
     const work_experiences = [
         {
             designation: 'Software Engineer',
-            company: 'Daraz BD (Alibaba Group)',
+            company: 'Portonics Limited',
             tenure: {
-                from: 'Oct 2023',
+                from: 'Apr 2024',
                 to: 'Present',
             },
             responsibilities: [
-                'Developing software solutions for internal usage',
+                'Developed and deployed multiple features and RESTful APIs for Eagle App, the agent mobile application for ATOM Myanmar, serving a 3M+ user base using Flight PHP.',
+                'Delivered 100% of sprint-planned features on schedule, tracked and managed via JIRA in an Agile/Scrum environment.',
+                'Authored comprehensive project documentation including FRS, SRS, DB schemas, ERDs, use-case diagrams, flow diagrams, and API documentation for all major feature releases.',
             ],
         },
         {
             designation: 'Software Engineer',
-            company: 'PayStation (Service Hub Ltd)',
+            company: 'Daraz BD (Alibaba Group)',
+            tenure: {
+                from: 'Oct 2023',
+                to: 'Mar 2024',
+            },
+            responsibilities: [
+                'Architected SaaS-based product with secure OAuth2 authentication using Laravel Passport and role-based access control using Spatie Permissions, enabling 5 business ventures to operate on a single platform.',
+                'Collaborated with cross-functional teams in an Alibaba Group engineering environment, following enterprise-grade code review and deployment practices.',
+                'Conducted code reviews and maintained coding standards aligned with Alibaba Group\'s enterprise engineering practices.',
+                'Contributed to improving internal development workflows, reducing code review turnaround time.',
+            ],
+        },
+        {
+            designation: 'Software Engineer',
+            company: 'PayStation (Service Hub Ltd.)',
             tenure: {
                 from: 'Dec 2022',
                 to: 'Sep 2023',
             },
             responsibilities: [
-                'Developing payment gateway APIs and integrating Bank payment APIs',
-                'Providing guidance to clients about payment gateway integration'
+                'Engineered a secure Payment System Operator (PSO) gateway using Laravel, processing 1M+ BDT in monthly transactions with 99.9% uptime.',
+                'Integrated 5+ Payment Service Provider (PSP) gateways including AMEX, Mastercard, and Visa, expanding payment coverage for end users.',
+                'Developed a Progressive Web App (PWA) for bus ticket services on the MyBL app, used by 41M+ subscribers of Banglalink, one of Bangladesh\'s largest telecom operators.',
             ],
         },
         {
-            designation: 'Software Engineer',
+            designation: 'Associate Software Engineer',
             company: 'Swapnoloke',
             tenure: {
                 from: 'Sep 2019',
                 to: 'Nov 2022',
             },
             responsibilities: [
-                'Designing and developing software process and modules',
-                'Leading multiple teams and Mentoring new recruits and guiding junior developers',
-                'Communicating with clients',
+                'Led the development team for digital assessment solutions deployed across multiple military training institutions, achieving 100% client satisfaction.',
+                'Gained hands-on expertise across 3 different industry verticals (defense, export-import and education), adapting quickly to diverse domain requirements.',
+                'Designed and implemented backend services and database architectures to support mission-critical assessment workflows.',
+                'Managed full project lifecycle from requirements gathering to deployment, serving as the primary technical decision-maker.',
             ],
         },
         {
@@ -44,8 +62,9 @@ $(function() {
                 to: 'Aug 2019',
             },
             responsibilities: [
-                'Maintaining various websites',
-                'Developing content for Wordpress websites',
+                'Built and maintained responsive web applications for 3 client-facing websites using HTML, CSS, JavaScript, and PHP.',
+                'Implemented SEO best practices and performance optimizations, improving page load times and organic search visibility.',
+                'Improved Google search index ranking by 70%+ within 2 months through strategic on-page and off-page SEO optimization.',
             ],
         },
     ]
@@ -54,25 +73,22 @@ $(function() {
     function loadWorkExperiences() {
         for(let x in work_experiences){
             let item = work_experiences[x]
-            let res = ''
+            let block = `<div class="col-sm-12 col-md-12">
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" >
+                                      <h4>${item.designation} <a href="#">${item.company}</a></h4>
+                                      <div class="mh-eduyear">${item.tenure.from} - ${item.tenure.to}</div>`
             if(item.responsibilities.length > 0){
-                res += '<span><b>Key Responsibility :</b></span>\n' +
-                    '                      <ul class="work-responsibility">'
+                block += `                <span><b>Description :</b></span>
+                                          <ul class="work-responsibility">`
                 for(let r in item.responsibilities){
-                    res += '                    <li>\n' +
-                        '                          <i class="fa fa-circle"></i>'+item.responsibilities[r]+'\n' +
-                        '                        </li>\n'
+                    block += `                  <li>
+                                                  <i class="fa fa-circle"></i>${item.responsibilities[r]}
+                                                </li>`
                 }
-                res += '                    </ul>\n'
-
+                block += `                 </ul>`
             }
-            let block = '<div class="col-sm-12 col-md-6">\n' +
-                '                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" >\n' +
-                '                      <h4>'+item.designation+' <a href="#">'+item.company+'</a></h4>\n' +
-                '                      <div class="mh-eduyear">'+item.tenure.from+' - '+item.tenure.to+'</div>\n' +
-                '                      '+res+
-                '                    </div>\n' +
-                '                  </div>'
+            block += `                </div>
+                                  </div>`
             $('.mh-experience-deatils').append(block)
 
         }
