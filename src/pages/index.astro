@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import Hero from '../components/Hero.astro'
+import About from '../components/About.astro'
+import Skills from '../components/Skills.astro'
+import Education from '../components/Education.astro'
+import Experience from '../components/Experience.astro'
+import Projects from '../components/Projects.astro'
+import Quotes from '../components/Quotes.astro'
+import Contact from '../components/Contact.astro'
+import { profile } from '../data/profile.js'
+---
+
+<BaseLayout
+    title={`${profile.name} - Portfolio`}
+    description={`${profile.name}, ${profile.role} based in ${profile.location}. ${profile.summary}`}
+>
+    <Hero />
+    <About />
+    <Skills />
+    <section id="experience" class="border-b border-slate-200 dark:border-slate-800">
+        <div class="mx-auto grid max-w-5xl gap-12 px-4 py-16 sm:px-6 sm:py-24 md:grid-cols-2">
+            <Education />
+            <Experience />
+        </div>
+    </section>
+    <Projects />
+    <Quotes />
+    <Contact />
+</BaseLayout>
