@@ -1,1 +1,15 @@
-./.idea
+# Astro / Node
+dist/
+.astro/
+node_modules/
+npm-debug.log*
+
+# Environment
+.env
+.env.production
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
