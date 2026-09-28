@@ -20,7 +20,8 @@
 
 Seasoned Software Engineer with 7+ years of experience building scalable, secure, and high-traffic applications across **fintech, telecom, SaaS, and e-commerce** domains.
 
-- 🔭 Currently working at **[Portonics Limited](https://portonics.com/)** — building APIs for **[ATOM Myanmar](https://www.atom.com.mm/en)**'s agent app serving **3M+ users**
+- 🔭 Currently working at **[Portonics Limited](https://portonics.com/) Robi Single App Team** — building APIs for **[My Robi App](https://www.robi.com.bd/en)** & **[My Cirkle App](https://cirkle.digital/en)** serving **56M+ Robi subscribers** and **10M+ Cirkle subscribers**
+- 🏢 Previously at **[Portonics Limited](https://portonics.com/) Eagle App Team** — built APIs for **[ATOM Myanmar](https://www.atom.com.mm/en)**'s agent app serving **3M+ users
 - 🏢 Previously at **[Daraz BD (Alibaba Group)](https://www.daraz.com.bd/)** — architected SaaS platforms for 5 business ventures
 - 💳 Engineered **PSO payment gateways** integrating AMEX, Mastercard & Visa, processing **1M+ BDT/month**
 - 📱 Developed **PWAs used by 41M+ subscribers** of **[Banglalink](https://banglalink.net)**
@@ -111,3 +112,40 @@ Seasoned Software Engineer with 7+ years of experience building scalable, secure
   <br>
   📩 <b>hossainsadrul@gmail.com</b>
 </p>
+
+---
+
+## Development
+
+This portfolio is built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com), and deploys as a fully static site. Content lives in plain JS arrays under `src/data/` — see [`src/data/README.md`](src/data/README.md) for the field shapes of each one.
+
+### Setup
+
+```bash
+nvm use        # Node version pinned in .nvmrc (see "engines" in package.json)
+npm install
+```
+
+### Common commands
+
+| Command | Action |
+|---|---|
+| `npm run dev` | Start the local dev server with hot reload |
+| `npm run build` | Type-check and build the static site to `dist/` |
+| `npm run preview` | Preview the production build locally |
+| `npm run check` | Run Astro's diagnostics/type checker |
+
+### Editing content
+
+Add, edit, or remove entries in the arrays under `src/data/` (education, work experience, skills, projects, social links, quotes, and the `profile` object). The page re-renders from those arrays — no component or markup changes needed. Drop new project screenshots into `src/assets/projects/` using the filename referenced by a project's `image` field, and replace `public/cv/sadrul-hossain-cv.pdf` to update the downloadable CV.
+
+### Deployment
+
+The site is portable between GitHub Pages (served under `/portfolio/`) and a root-domain host such as Cloudflare Pages, controlled entirely by environment variables read in `astro.config.mjs` — no code changes needed between targets:
+
+| Variable | Default | Used for |
+|---|---|---|
+| `SITE_URL` | `https://sadrulhossain.github.io` | Canonical site origin (SEO tags, sitemap, robots.txt) |
+| `BASE_PATH` | `/` | URL path prefix; the GitHub Actions workflow sets this to `/portfolio` |
+
+Pushing to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), which builds with `BASE_PATH=/portfolio` and publishes to GitHub Pages. For a root-domain host, build with `SITE_URL` set to that domain and `BASE_PATH` unset, then deploy the `dist/` output.
