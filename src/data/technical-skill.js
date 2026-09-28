@@ -42,7 +42,7 @@ export const technical_skill = [
             { skill: 'PostgreSQL', proficiency: 95 },
             { skill: 'MySQL', proficiency: 95 },
             { skill: 'MongoDB', proficiency: 30 },
-            { skill: 'SQLite', proficiency: 40 },
+            { skill: 'SQLite', proficiency: 70 },
             { skill: 'Redis', proficiency: 67 },
         ]
     },
