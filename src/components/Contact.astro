@@ -8,10 +8,120 @@ const cards = [
     { icon: 'mail' as const, label: 'Email', value: profile.email, href: `mailto:${profile.email}` },
     { icon: 'phone' as const, label: 'Phone', value: profile.phone, href: `tel:${profile.phoneHref}` },
 ]
+
+// A coarse dot-grid silhouette of the world's continents, used as a purely
+// decorative "connected world" background. Cell (col,row) -> approx (lon,lat);
+// not geographically precise, just enough to read as a world map at a glance.
+const COLS = 48
+const ROWS = 22
+const CELL = 10
+
+const grid: boolean[][] = Array.from({ length: ROWS }, () => Array(COLS).fill(false))
+const fillRow = (row: number, colStart: number, colEnd: number) => {
+    if (row < 0 || row >= ROWS) return
+    for (let c = Math.max(0, colStart); c <= Math.min(COLS - 1, colEnd); c++) grid[row][c] = true
+}
+
+// North America
+fillRow(2, 5, 14)
+fillRow(3, 2, 17)
+fillRow(4, 1, 18)
+fillRow(5, 1, 17)
+fillRow(6, 2, 16)
+fillRow(7, 3, 15)
+fillRow(8, 5, 13)
+fillRow(9, 7, 12)
+// Central America / Caribbean bridge
+fillRow(10, 9, 12)
+// South America
+fillRow(11, 14, 19)
+fillRow(12, 13, 19)
+fillRow(13, 13, 18)
+fillRow(14, 14, 18)
+fillRow(15, 14, 17)
+fillRow(16, 15, 17)
+fillRow(17, 15, 17)
+fillRow(18, 15, 16)
+fillRow(19, 15, 16)
+// Greenland
+fillRow(1, 17, 21)
+fillRow(2, 17, 20)
+// Europe
+fillRow(3, 22, 29)
+fillRow(4, 22, 30)
+fillRow(5, 22, 30)
+fillRow(6, 23, 29)
+fillRow(7, 24, 28)
+// Africa
+fillRow(8, 22, 31)
+fillRow(9, 21, 32)
+fillRow(10, 21, 32)
+fillRow(11, 22, 31)
+fillRow(12, 22, 30)
+fillRow(13, 23, 30)
+fillRow(14, 23, 29)
+fillRow(15, 24, 29)
+fillRow(16, 24, 28)
+fillRow(17, 24, 27)
+fillRow(18, 25, 27)
+// Asia (Russia/Siberia)
+fillRow(1, 28, 47)
+fillRow(2, 26, 47)
+fillRow(3, 30, 47)
+fillRow(4, 31, 46)
+fillRow(5, 31, 44)
+fillRow(6, 30, 42)
+fillRow(7, 29, 40)
+// Middle East / South Asia
+fillRow(8, 29, 37)
+fillRow(9, 30, 36)
+fillRow(10, 31, 35)
+// East / Southeast Asia
+fillRow(8, 38, 43)
+fillRow(9, 37, 42)
+fillRow(10, 37, 43)
+fillRow(11, 38, 43)
+fillRow(12, 38, 42)
+// Australia
+fillRow(16, 39, 44)
+fillRow(17, 38, 45)
+fillRow(18, 39, 44)
+fillRow(19, 40, 43)
+
+const dots: { x: number; y: number }[] = []
+for (let r = 0; r < ROWS; r++) {
+    for (let c = 0; c < COLS; c++) {
+        if (grid[r][c]) dots.push({ x: c * CELL + CELL / 2, y: r * CELL + CELL / 2 })
+    }
+}
+
+const cellCenter = (col: number, row: number) => ({ x: col * CELL + CELL / 2, y: row * CELL + CELL / 2 })
+
+// Illustrative "connected world" links - decorative only, not literal data.
+const hub = cellCenter(33, 9) // South Asia
+const links = [cellCenter(10, 5), cellCenter(26, 5), cellCenter(41, 17), cellCenter(6, 9)].map((p) => {
+    const mx = (hub.x + p.x) / 2
+    const my = (hub.y + p.y) / 2 - 26
+    return `M${hub.x},${hub.y} Q${mx},${my} ${p.x},${p.y}`
+})
+const nodes = [hub, ...[cellCenter(10, 5), cellCenter(26, 5), cellCenter(41, 17), cellCenter(6, 9)]]
 ---
 
-<section id="contact" class="border-b border-slate-200 dark:border-slate-800">
-    <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-24">
+<section id="contact" class="relative overflow-hidden border-b border-slate-200 dark:border-slate-800">
+    <svg
+        class="pointer-events-none absolute inset-0 h-full w-full opacity-[0.08] dark:opacity-[0.1]"
+        viewBox={`0 0 ${COLS * CELL} ${ROWS * CELL}`}
+        preserveAspectRatio="xMidYMid slice"
+        aria-hidden="true"
+    >
+        <g class="text-teal-700 dark:text-teal-400" fill="currentColor" stroke="currentColor">
+            {dots.map((d) => <circle cx={d.x} cy={d.y} r={CELL * 0.22} />)}
+            {links.map((d) => <path d={d} fill="none" stroke-width="1" stroke-dasharray="3 3" />)}
+            {nodes.map((n) => <circle cx={n.x} cy={n.y} r={CELL * 0.35} />)}
+        </g>
+    </svg>
+
+    <div class="relative mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-24">
         <SectionHeading eyebrow="Let's talk" title="Contact Me" center />
         <p class="mx-auto max-w-2xl text-center text-slate-600 dark:text-slate-300">
             If you are impressed with my skills and expertise and want to hire me or want to know more about me, please
@@ -21,7 +131,7 @@ const cards = [
         <div class="mt-10 grid gap-6 sm:grid-cols-3">
             {
                 cards.map((card) => (
-                    <div class="rounded-2xl bg-white p-6 text-center shadow-sm ring-1 ring-teal-100 dark:bg-slate-900 dark:ring-slate-800">
+                    <div class="rounded-2xl border border-white/60 bg-white/50 p-6 text-center shadow-xl backdrop-blur-md dark:border-white/10 dark:bg-slate-900/40">
                         <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-teal-600/10 text-teal-700 dark:text-teal-400">
                             <Icon name={card.icon} class="h-5 w-5" />
                         </div>
