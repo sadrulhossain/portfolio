@@ -25,7 +25,7 @@ export const projects = [
         category: 'Telecom',
         type: 'Telecom Agent App',
         image: 'eagle-app.webp',
-        description: 'Agent mobile application for ATOM Myanmar. Developed and deployed features and RESTful APIs using Flight PHP, serving a 3M+ user base of agents.',
+        description: 'Agent mobile application for ATOM Myanmar. Developed and deployed features and RESTful APIs using Flight PHP, serving a 300k+ user base of agents.',
         technologies: ['PHP', 'Laravel', 'Flight PHP', 'PostgreSQL', 'Redis', 'Docker'],
     },
     {
