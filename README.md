@@ -52,7 +52,9 @@ Seasoned Software Engineer with 7+ years of experience building scalable, secure
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Flight PHP](https://img.shields.io/badge/Flight_PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Slim](https://img.shields.io/badge/Slim-3E9BCE?style=flat-square&logo=php&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white)
 
 **Databases & Caching**
