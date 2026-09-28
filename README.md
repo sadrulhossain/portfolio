@@ -90,15 +90,15 @@ Seasoned Software Engineer with **7+ years** of progressive experience building 
 
 ### 🏆 Career Highlights
 
-| Metric | Achievement |
-|--------|------------|
-| 👥 Users Serving | <img src="https://www.google.com/s2/favicons?domain=robi.com.bd&sz=32" width="16" height="16" align="absmiddle" /> **56M+** Robi (My Robi) subscribers, <img src=".github/readme-assets/cirkle-logo.svg" width="27" height="16" align="absmiddle" /> **10M+** Cirkle (My Cirkle) subscribers |
-| 👥 Users Served | <img src="https://www.google.com/s2/favicons?domain=banglalink.net&sz=32" width="16" height="16" align="absmiddle" /> **41M+** Banglalink (MyBL) subscribers |
-| 💰 Transactions | **1M+ BDT/month** via PSO payment gateway |
-| 📱 App Users | <img src=".github/readme-assets/atom-logo-transparent.png" width="16" height="16" align="absmiddle" /> **300k+** ATOM Myanmar agent app users |
-| 🏢 Ventures | **5 business ventures** on single SaaS platform |
-| ✅ Sprint Delivery | **100%** on-time delivery rate |
-| 💳 Payment Providers | **5+** PSPs (AMEX, Mastercard, Visa) |
+| Metric                                                                                                     | Achievement |
+|------------------------------------------------------------------------------------------------------------|------------|
+| <img src=".github/readme-assets/users-green.svg" width="13" height="13" align="absmiddle" /> Users Serving | <img src="https://www.google.com/s2/favicons?domain=robi.com.bd&sz=32" width="16" height="16" align="absmiddle" /> **56M+** Robi (My Robi) subscribers, <img src=".github/readme-assets/cirkle-logo.svg" width="27" height="16" align="absmiddle" /> **10M+** Cirkle (My Cirkle) subscribers |
+| 👥 Users Served                                                                                            | <img src="https://www.google.com/s2/favicons?domain=banglalink.net&sz=32" width="16" height="16" align="absmiddle" /> **41M+** Banglalink (MyBL) subscribers |
+| 💰 Transactions                                                                                            | **1M+ BDT/month** via PSO payment gateway |
+| 📱 App Users                                                                                               | <img src=".github/readme-assets/atom-logo-transparent.png" width="16" height="16" align="absmiddle" /> **300k+** ATOM Myanmar agent app users |
+| 🏢 Ventures                                                                                                | **5 business ventures** on single SaaS platform |
+| ✅ Sprint Delivery                                                                                          | **100%** on-time delivery rate |
+| 💳 Payment Providers                                                                                       | **5+** PSPs (AMEX, Mastercard, Visa) |
 
 ---
 
