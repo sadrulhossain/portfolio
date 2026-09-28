@@ -5,6 +5,30 @@
 /** @type {Project[]} */
 export const projects = [
     {
+        title: 'My Robi App',
+        category: 'Telecom',
+        type: 'Telecom Customer App',
+        image: 'my-robi-app.webp',
+        description: "The official customer app for Robi, Bangladesh's second-largest mobile operator. Building and maintaining backend APIs as part of the Robi Single App Team, serving 56M+ Robi subscribers.",
+        technologies: ['PHP', 'Laravel', 'Slim', 'PostgreSQL', 'Redis', 'Docker', 'NodeJs'],
+    },
+    {
+        title: 'My Cirkle App',
+        category: 'Telecom',
+        type: 'Telecom Customer App',
+        image: 'my-cirkle-app.webp',
+        description: "Customer app for Cirkle, Robi's digital-first sub-brand. Building and maintaining backend APIs as part of the Robi Single App Team, serving 10M+ Cirkle subscribers.",
+        technologies: ['PHP', 'Laravel', 'Slim', 'PostgreSQL', 'Redis', 'Docker', 'NodeJs'],
+    },
+    {
+        title: 'Eagle App',
+        category: 'Telecom',
+        type: 'Telecom Agent App',
+        image: 'eagle-app.webp',
+        description: 'Agent mobile application for ATOM Myanmar. Developed and deployed features and RESTful APIs using Flight PHP, serving a 3M+ user base of agents.',
+        technologies: ['PHP', 'Laravel', 'Flight PHP', 'PostgreSQL', 'Redis', 'Docker'],
+    },
+    {
         title: 'KTI - Sales Management & Tracking Software',
         category: 'Business Solution',
         type: 'Sales & Order Tracking',
