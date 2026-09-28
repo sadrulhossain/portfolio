@@ -6,7 +6,7 @@
 export const professional_skill = [
     {
         skill: 'Communication',
-        proficiency: 85,
+        proficiency: 75,
     },
     {
         skill: 'Team Work',
