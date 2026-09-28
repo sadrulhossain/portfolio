@@ -90,9 +90,10 @@ Seasoned Software Engineer with 7+ years of experience building scalable, secure
 
 | Metric | Achievement |
 |--------|------------|
-| 👥 Users Served | **56M+** Robi subscribers, **10M+** Cirkle subscribers, **41M+** Banglalink (MyBL) subscribers |
+| 🟢 Users Serving | <img src="https://www.google.com/s2/favicons?domain=robi.com.bd&sz=32" width="16" height="16" align="absmiddle" /> **56M+** Robi (My Robi) subscribers, <img src="https://www.google.com/s2/favicons?domain=cirkle.digital&sz=32" width="16" height="16" align="absmiddle" /> **10M+** Cirkle (My Cirkle) subscribers |
+| 👥 Users Served | <img src="https://www.google.com/s2/favicons?domain=banglalink.net&sz=32" width="16" height="16" align="absmiddle" /> **41M+** Banglalink (MyBL) subscribers |
 | 💰 Transactions | **1M+ BDT/month** via PSO payment gateway |
-| 📱 App Users | **3M+** ATOM Myanmar agent app users |
+| 📱 App Users | <img src="https://www.google.com/s2/favicons?domain=atom.com.mm&sz=32" width="16" height="16" align="absmiddle" /> **3M+** ATOM Myanmar agent app users |
 | 🏢 Ventures | **5 business ventures** on single SaaS platform |
 | ✅ Sprint Delivery | **100%** on-time delivery rate |
 | 💳 Payment Providers | **5+** PSPs (AMEX, Mastercard, Visa) |
