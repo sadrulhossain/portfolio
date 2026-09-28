@@ -33,7 +33,7 @@ export const projects = [
         category: 'Business Solution',
         type: 'Sales & Order Tracking',
         image: 'kti-sales-management.png',
-        description: 'A complete business solution including sales management, order tracking, business analysis and CRM developed for Konita Trade International.',
+        description: 'End-to-end sales management and CRM platform built for Konita Trade International, covering order tracking and business analysis reporting for the sales team.',
         technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'Bootstrap', 'JavaScript', 'jQuery', 'AJAX', 'MySQL'],
     },
     {
@@ -41,7 +41,7 @@ export const projects = [
         category: 'Business Solution',
         type: 'Retailing & Distribution Channel',
         image: 'd-retail.png',
-        description: 'A complete business solution including retailing, distribution channel, inventory management developed for Arroz Limited.',
+        description: 'Retail and distribution management platform for Arroz Limited, covering point-of-sale retailing, multi-tier distribution channels, inventory tracking, and SMS notifications for order updates.',
         technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'Bootstrap', 'JavaScript', 'jQuery', 'AJAX', 'MySQL', 'SMS Gateway'],
     },
     {
@@ -49,7 +49,7 @@ export const projects = [
         category: 'E-commerce',
         type: 'E-commerce',
         image: 'rebekas-attire.png',
-        description: "A complete E-commerce solution including order management, order tracking, business analysis and inventory management developed for rebekasattire.com online clothing store.",
+        description: 'Online storefront for rebekasattire.com with integrated payment and shipping gateways, plus order management, tracking, and inventory tools to run the clothing business end-to-end.',
         technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'Bootstrap', 'JavaScript', 'jQuery', 'AJAX', 'MySQL', 'Payment Gateway', 'Shipping Gateway'],
     },
     {
@@ -57,7 +57,7 @@ export const projects = [
         category: 'Business Solution',
         type: 'Inventory & Production Management',
         image: 'rajakini.png',
-        description: 'A complete business solution including production and inventory management developed for laundry division of Sterling Group.',
+        description: 'Production and inventory management system built for the laundry division of Sterling Group, tracking jobs from intake through processing to dispatch.',
         technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'Bootstrap', 'JavaScript', 'jQuery', 'AJAX', 'MySQL'],
     },
     {
@@ -65,7 +65,7 @@ export const projects = [
         category: 'EdTech Solution',
         type: 'Assessment',
         image: 'afwc-management.png',
-        description: 'A complete edtech solution including course management, evaluation, result analysis, performance analytics, course report generation and reference archive developed for Armed Forces War Course (AFWC) of National Defence College (NDC).',
+        description: 'Course and assessment management platform for the Armed Forces War Course (AFWC) at National Defence College, handling evaluation, result analysis, performance analytics, report generation, and a searchable reference archive.',
         technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'Bootstrap', 'JavaScript', 'jQuery', 'AJAX', 'MySQL', 'API'],
     },
     {
@@ -73,7 +73,7 @@ export const projects = [
         category: 'EdTech Solution',
         type: 'Assessment',
         image: 'sit-assessment.png',
-        description: 'A complete EdTech solution including course management, evaluation, result analysis, performance analytics, course report generation and reference archive developed for School of Infantry and Tactics (SI&T).',
+        description: 'Course and assessment management platform for the School of Infantry and Tactics (SI&T), covering evaluation, result analysis, performance analytics, report generation, and a searchable reference archive.',
         technologies: ['PHP', 'Laravel', 'HTML', 'CSS', 'Bootstrap', 'JavaScript', 'jQuery', 'AJAX', 'MySQL'],
     },
 ]
