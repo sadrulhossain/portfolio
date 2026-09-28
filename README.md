@@ -20,8 +20,8 @@
 
 Seasoned Software Engineer with 7+ years of experience building scalable, secure, and high-traffic applications across **fintech, telecom, SaaS, and e-commerce** domains.
 
-- 🔭 Currently working at **[Portonics Limited](https://portonics.com/) Robi Single App Team** — building APIs for <img src="https://www.google.com/s2/favicons?domain=robi.com.bd&sz=32" width="16" height="16" align="absmiddle" /> **[My Robi App](https://www.robi.com.bd/en)** & <img src="https://www.google.com/s2/favicons?domain=cirkle.digital&sz=32" width="16" height="16" align="absmiddle" /> **[My Cirkle App](https://cirkle.digital/en)** serving **56M+ Robi subscribers** and **10M+ Cirkle subscribers**
-- 🏢 Previously at **[Portonics Limited](https://portonics.com/) Eagle App Team** — built APIs for <img src="https://www.google.com/s2/favicons?domain=atom.com.mm&sz=32" width="16" height="16" align="absmiddle" /> **[ATOM Myanmar](https://www.atom.com.mm/en)**'s agent app serving **3M+ users
+- 🔭 Currently working at **[Portonics Limited](https://portonics.com/) Robi Single App Team** — building APIs for <img src="https://www.google.com/s2/favicons?domain=robi.com.bd&sz=32" width="16" height="16" align="absmiddle" /> **[My Robi App](https://www.robi.com.bd/en)** & <img src=".github/readme-assets/cirkle-logo.svg" width="16" height="16" align="absmiddle" /> **[My Cirkle App](https://cirkle.digital/en)** serving **56M+ Robi subscribers** and **10M+ Cirkle subscribers**
+- 🏢 Previously at **[Portonics Limited](https://portonics.com/) Eagle App Team** — built APIs for <img src=".github/readme-assets/atom-logo-transparent.png" width="16" height="16" align="absmiddle" /> **[ATOM Myanmar](https://www.atom.com.mm/en)**'s agent app serving **3M+ users
 - 🏢 Previously at **[Daraz BD (Alibaba Group)](https://www.daraz.com.bd/)** — architected SaaS platforms for 5 business ventures
 - 💳 Engineered **PSO payment gateways** integrating AMEX, Mastercard & Visa, processing **1M+ BDT/month**
 - 📱 Developed **PWAs used by 41M+ subscribers** of <img src="https://www.google.com/s2/favicons?domain=banglalink.net&sz=32" width="16" height="16" align="absmiddle" /> **[Banglalink](https://banglalink.net)**
@@ -90,10 +90,10 @@ Seasoned Software Engineer with 7+ years of experience building scalable, secure
 
 | Metric | Achievement |
 |--------|------------|
-| 🟢 Users Serving | <img src="https://www.google.com/s2/favicons?domain=robi.com.bd&sz=32" width="16" height="16" align="absmiddle" /> **56M+** Robi (My Robi) subscribers, <img src="https://www.google.com/s2/favicons?domain=cirkle.digital&sz=32" width="16" height="16" align="absmiddle" /> **10M+** Cirkle (My Cirkle) subscribers |
+| 🟢 Users Serving | <img src="https://www.google.com/s2/favicons?domain=robi.com.bd&sz=32" width="16" height="16" align="absmiddle" /> **56M+** Robi (My Robi) subscribers, <img src=".github/readme-assets/cirkle-logo.svg" width="16" height="16" align="absmiddle" /> **10M+** Cirkle (My Cirkle) subscribers |
 | 👥 Users Served | <img src="https://www.google.com/s2/favicons?domain=banglalink.net&sz=32" width="16" height="16" align="absmiddle" /> **41M+** Banglalink (MyBL) subscribers |
 | 💰 Transactions | **1M+ BDT/month** via PSO payment gateway |
-| 📱 App Users | <img src="https://www.google.com/s2/favicons?domain=atom.com.mm&sz=32" width="16" height="16" align="absmiddle" /> **3M+** ATOM Myanmar agent app users |
+| 📱 App Users | <img src=".github/readme-assets/atom-logo-transparent.png" width="16" height="16" align="absmiddle" /> **3M+** ATOM Myanmar agent app users |
 | 🏢 Ventures | **5 business ventures** on single SaaS platform |
 | ✅ Sprint Delivery | **100%** on-time delivery rate |
 | 💳 Payment Providers | **5+** PSPs (AMEX, Mastercard, Visa) |
