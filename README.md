@@ -90,7 +90,7 @@ Seasoned Software Engineer with 7+ years of experience building scalable, secure
 
 | Metric | Achievement |
 |--------|------------|
-| 👥 Users Served | **41M+** telecom subscribers (Banglalink MyBL) |
+| 👥 Users Served | **56M+** Robi subscribers, **10M+** Cirkle subscribers, **41M+** Banglalink (MyBL) subscribers |
 | 💰 Transactions | **1M+ BDT/month** via PSO payment gateway |
 | 📱 App Users | **3M+** ATOM Myanmar agent app users |
 | 🏢 Ventures | **5 business ventures** on single SaaS platform |
