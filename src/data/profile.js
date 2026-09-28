@@ -7,7 +7,7 @@ import { withBase } from '../lib/base.js'
  * @param {number} [height]
  */
 const logo = (src, width = 16, height = 16) =>
-    `<img src="${src}" width="${width}" height="${height}" alt="" style="vertical-align:middle;" />`
+    `<img src="${src}" width="${width}" height="${height}" alt="" style="display:inline-block;vertical-align:middle;" />`
 
 const ROBI_LOGO = 'https://www.google.com/s2/favicons?domain=robi.com.bd&sz=32'
 const CIRKLE_LOGO = withBase('/brand-logos/cirkle.svg')
