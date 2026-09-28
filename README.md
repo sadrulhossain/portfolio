@@ -20,11 +20,11 @@
 
 Seasoned Software Engineer with 7+ years of experience building scalable, secure, and high-traffic applications across **fintech, telecom, SaaS, and e-commerce** domains.
 
-- 🔭 Currently working at **[Portonics Limited](https://portonics.com/) Robi Single App Team** — building APIs for **[My Robi App](https://www.robi.com.bd/en)** & **[My Cirkle App](https://cirkle.digital/en)** serving **56M+ Robi subscribers** and **10M+ Cirkle subscribers**
-- 🏢 Previously at **[Portonics Limited](https://portonics.com/) Eagle App Team** — built APIs for **[ATOM Myanmar](https://www.atom.com.mm/en)**'s agent app serving **3M+ users
+- 🔭 Currently working at **[Portonics Limited](https://portonics.com/) Robi Single App Team** — building APIs for <img src="https://www.google.com/s2/favicons?domain=robi.com.bd&sz=32" width="16" height="16" align="absmiddle" /> **[My Robi App](https://www.robi.com.bd/en)** & <img src="https://www.google.com/s2/favicons?domain=cirkle.digital&sz=32" width="16" height="16" align="absmiddle" /> **[My Cirkle App](https://cirkle.digital/en)** serving **56M+ Robi subscribers** and **10M+ Cirkle subscribers**
+- 🏢 Previously at **[Portonics Limited](https://portonics.com/) Eagle App Team** — built APIs for <img src="https://www.google.com/s2/favicons?domain=atom.com.mm&sz=32" width="16" height="16" align="absmiddle" /> **[ATOM Myanmar](https://www.atom.com.mm/en)**'s agent app serving **3M+ users
 - 🏢 Previously at **[Daraz BD (Alibaba Group)](https://www.daraz.com.bd/)** — architected SaaS platforms for 5 business ventures
 - 💳 Engineered **PSO payment gateways** integrating AMEX, Mastercard & Visa, processing **1M+ BDT/month**
-- 📱 Developed **PWAs used by 41M+ subscribers** of **[Banglalink](https://banglalink.net)**
+- 📱 Developed **PWAs used by 41M+ subscribers** of <img src="https://www.google.com/s2/favicons?domain=banglalink.net&sz=32" width="16" height="16" align="absmiddle" /> **[Banglalink](https://banglalink.net)**
 - 🎯 Growing focus on **System Design & Software Architecture**
 
 ---
