@@ -17,20 +17,18 @@ import { professional_expertise } from '../data/professional-expertise.js'
             </div>
 
             <div>
-                <div>
-                    <p class="text-lg leading-relaxed text-slate-700 dark:text-slate-300" set:html={profile.summary} />
-                </div>
-
-                <div class="mt-6">
-                    <ul class="space-y-3">
-                        {
-                            profile.highlights.map((highlight) => (
-                                <li class="text-slate-700 dark:text-slate-300" set:html={highlight} />
-                            ))
-                        }
-                    </ul>
-                </div>
+                <p class="text-lg leading-relaxed text-slate-700 dark:text-slate-300" set:html={profile.summary} />
             </div>
+        </div>
+
+        <div class="mt-6">
+            <ul class="space-y-3">
+                {
+                    profile.highlights.map((highlight) => (
+                        <li class="text-slate-700 dark:text-slate-300" set:html={highlight} />
+                    ))
+                }
+            </ul>
         </div>
 
         <div class="mt-12 grid gap-8 sm:grid-cols-2">
