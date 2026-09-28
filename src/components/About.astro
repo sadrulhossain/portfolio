@@ -17,7 +17,7 @@ import { professional_expertise } from '../data/professional-expertise.js'
             </div>
 
             <div>
-                <p class="text-lg leading-relaxed text-slate-700 dark:text-slate-300">{profile.summary}</p>
+                <p class="text-lg leading-relaxed text-slate-700 dark:text-slate-300" set:html={profile.summary} />
 
                 <ul class="mt-6 space-y-3">
                     {
