@@ -12,7 +12,9 @@ export const work_experiences = [
             to: 'Present',
         },
         responsibilities: [
-            'Developed and deployed multiple features and RESTful APIs for Eagle App, the agent mobile application for ATOM Myanmar, serving a 3M+ user base using Flight PHP.',
+            'Currently contributes to the platform powering My Robi and My Cirkle (formerly My Airtel) apps, the flagship self-care applications for 56M+ subscriber base of Robi and the 10M+ subscribers under the legacy Airtel brand in Bangladesh, respectively.',
+            'Piloting the adoption of AI-Driven Development Lifecycle (AI DLC) and Spec-Driven Development (SDD) practices alongside the existing Agile/Scrum sprint-based workflow, contributing to process modernization efforts within the team.',
+            'Previously developed and deployed multiple features and RESTful APIs for Eagle App, the agent mobile application for ATOM Myanmar, serving a 300k+ user base using Flight PHP.',
             'Delivered 100% of sprint-planned features on schedule, tracked and managed via JIRA in an Agile/Scrum environment.',
             'Authored comprehensive project documentation including FRS, SRS, DB schemas, ERDs, use-case diagrams, flow diagrams, and API documentation for all major feature releases.',
         ],

@@ -19,7 +19,9 @@ export const technical_skill = [
         skills: [
             { skill: 'Laravel', proficiency: 92 },
             { skill: 'Flight PHP', proficiency: 90 },
+            { skill: 'Slim', proficiency: 75 },
             { skill: 'Node.js', proficiency: 65 },
+            { skill: 'FastAPI', proficiency: 45 },
             { skill: 'Codeigniter', proficiency: 30 },
         ]
     },
@@ -49,6 +51,7 @@ export const technical_skill = [
         skills: [
             { skill: 'Prompt Engineering', proficiency: 95 },
             { skill: 'Context Engineering', proficiency: 90 },
+            { skill: 'Spec-deriven Development', proficiency: 70 },
             { skill: 'Generative AI', proficiency: 10 },
             { skill: 'RAG', proficiency: 0 },
             { skill: 'MCP', proficiency: 0 },
@@ -78,7 +81,7 @@ export const technical_skill = [
             { skill: 'Postman', proficiency: 90 },
             { skill: 'Swagger', proficiency: 70 },
             { skill: 'Figma', proficiency: 90 },
-            { skill: 'GraphQL', proficiency: 60 },
+            { skill: 'GraphQL', proficiency: 50 },
         ]
     },
     {

@@ -18,7 +18,7 @@
 
 ### 👨‍💻 About Me
 
-Seasoned Software Engineer with 7+ years of experience building scalable, secure, and high-traffic applications across **fintech, telecom, SaaS, and e-commerce** domains.
+Seasoned Software Engineer with **7+ years** of progressive experience building **scalable, secure, and high-traffic applications** across several major industry verticals — **fintech, telecom, SaaS, defense/education distribution and export-import**. From engineering **PSO payment gateways** with multi-provider integration to developing self-care applications for **66M+ subscriber base of Robi and Cirkle**, I bring a proven ability to deliver complex solutions under tight deadlines with **100% sprint success rate**. Technically deep in the **Laravel ecosystem, Vue.js, and relational databases**, with hands-on exposure to **AI-assisted and spec-driven development** practices, and a growing focus on system design, microservices architecture, and large-scale technical decision-making in pursuit of a software architecture career path.
 
 - 🔭 Currently working at <img src="https://cdn.prod.website-files.com/689a86396206fe0c469a15fc/69034a7087a0562b05554724_fav.svg" width="16" height="16" align="absmiddle" /> **[Portonics Limited](https://portonics.com/) Robi Single App Team** — building APIs for <img src="https://www.google.com/s2/favicons?domain=robi.com.bd&sz=32" width="16" height="16" align="absmiddle" /> **[My Robi App](https://www.robi.com.bd/en)** & <img src=".github/readme-assets/cirkle-logo.svg" width="27" height="16" align="absmiddle" /> **[My Cirkle App](https://cirkle.digital/en)** serving **56M+ Robi subscribers** and **10M+ Cirkle subscribers**
 - 🏢 Previously at <img src="https://cdn.prod.website-files.com/689a86396206fe0c469a15fc/69034a7087a0562b05554724_fav.svg" width="16" height="16" align="absmiddle" /> **[Portonics Limited](https://portonics.com/) Eagle App Team** — built APIs for <img src=".github/readme-assets/atom-logo-transparent.png" width="16" height="16" align="absmiddle" /> **[ATOM Myanmar](https://www.atom.com.mm/en)**'s agent app serving **3M+ users
@@ -52,9 +52,7 @@ Seasoned Software Engineer with 7+ years of experience building scalable, secure
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Flight PHP](https://img.shields.io/badge/Flight_PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Slim](https://img.shields.io/badge/Slim-3E9BCE?style=flat-square&logo=php&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white)
 
 **Databases & Caching**
